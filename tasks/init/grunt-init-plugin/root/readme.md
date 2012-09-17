@@ -1,4 +1,4 @@
-Grunt init template generator.
+{%= description %}.
 
 Boilerplate to generate grunt init plugins that will generate grunt projects.
 
@@ -8,18 +8,18 @@ This work is based in [Backbone Boilerplate framework tool](https://github.com/b
 
 #### Install this [Grunt](https://github.com/cowboy/grunt) plugin with: ####
 ``` bash
-$ npm install -g grunt-init-plugin
+$ npm install -g {%= name %}
 ```
 
 #### Create a new grunt init template ####
 ``` bash
-$ grunt-init-plugin init
+$ {%= name %} init
 ```
-Answer the questions
+Answer some questions
 
-#### Add files to template root folder ####
+#### Add some file in ####
 ``` bash
-$ /tasks/init/[plugin-name]/root
+$ /tasks/init/{%= name %}/root
 ```
 
 #### To run in development environment ####
@@ -28,15 +28,14 @@ $ npm link
 ```
 
 ``` bash
-$ [plugin-name] init
+$ {%= name %} init
 ```
 
 
 ## Release History ##
 
-2012/09/13 - v0.1.0 - Initial release
+2012/09/09 - v0.1.0 - Preview release
 
 
 ## License
-Copyright (c) 2012 Rodrigo Valerio [@rsvalerio](http://twitter.com/rsvalerio)
-Licensed under the MIT license.
+Copyright (c) 2012 {%= author_name %} Licensed under the MIT license.
