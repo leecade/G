@@ -16,10 +16,10 @@
     "url": "https://github.com/leecade/g/issues"
   },
   "dependencies": {
-    "grunt": "0.3.15"
+    "grunt": "1.0.1"
   },
   "devDependencies": {
-    "grunt": "~0.3.15"
+    "grunt": "~1.0.1"
   },
   "keywords": ["gruntplugin"],
   "engines": {
